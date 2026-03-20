@@ -59,7 +59,14 @@
             <version>2.19.1</version>
         </dependency>
 
+<!--
+<dependency>
+    <groupId>com.alibaba.cloud.ai</groupId>
+    <artifactId>spring-ai-alibaba-starter</artifactId>
+    <version>1.0.0-M6.1</version>
+</dependency>
 
+-->
 
         <dependency>
             <groupId>org.springframework.ai</groupId>
@@ -67,21 +74,6 @@
             <version>1.0.0-M5</version>
         </dependency>
 
-        <!-- PDF 生成库 -->
-        <!-- https://mvnrepository.com/artifact/com.itextpdf/itext-core -->
-        <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itext-core</artifactId>
-            <version>9.1.0</version>
-            <type>pom</type>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.itextpdf/font-asian -->
-        <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>font-asian</artifactId>
-            <version>9.1.0</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
@@ -137,7 +129,19 @@
 
     <!-- 需要引入仓库配置，才能下载到最新的 Spring AI 相关的依赖 -->
     <repositories>
+<!--
 
+  <repository>
+    <id>spring-milestones</id>
+    <name>Spring Milestones</name>
+    <url>https://repo.spring.io/milestone</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+
+
+-->
 
         <repository>
             <id>spring-snapshots</id>
